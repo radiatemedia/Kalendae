@@ -2,11 +2,8 @@
 .kalendae {
 	display: inline-block;zoom:1;*display:inline;
 	background:#eee;
-	padding:10px;
+	padding: 15px;
 	margin:5px;
-	border-radius:5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	font-size:11px;
 	font-family:'Helvetica Neue', 'Helvetica';
 	cursor:default;
@@ -27,27 +24,21 @@
 
 /** Kalendae.Input's popup close button **/
 .kalendae .k-btn-close {
-	position:absolute;
-	top:-8px;
-	right:-8px;
-	width:16px;
+  position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 16px;
 	height:16px;
-	background:white;
-	border:2px solid #ccc;
 	color:#999;
 	line-height:17px;
 	text-align:center;
 	font-size:13px;
-	border-radius:10px;
-	box-shadow:0 1px 3px rgba(0,0,0,0.75);
 	cursor:pointer;
 	text-decoration:none;
 }
 .kalendae .k-btn-close:after {content:"\2716";}
 .kalendae .k-btn-close:hover {
-	color:#7EA0E2;
-	background:white;
-	border-color:#7EA0E2;
+	color: #2795B6;
 }
 
 /** Month Container **/
@@ -91,10 +82,10 @@
 .kalendae .k-btn-next-year:after {content:"\00BB";}
 
 .kalendae .k-btn-previous-month:hover,
-.kalendae .k-btn-next-month:hover {color:#7EA0E2;}
+.kalendae .k-btn-next-month:hover {color: #2795B6;}
 
 .kalendae .k-btn-previous-year:hover,
-.kalendae .k-btn-next-year:hover {color:#6FDF81;}
+.kalendae .k-btn-next-year:hover {color: #2795B6;}
 
 /** Remove extra buttons when calendar shows multiple months **/
 .kalendae .k-first-month .k-btn-next-month,
@@ -153,9 +144,6 @@
 	line-height:1em;
 	padding:2px 3px 2px 2px;
 	border:1px solid transparent;
-	border-radius:3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
 	color:#999;
 }
 
@@ -180,27 +168,27 @@
 
 /** Selected day, when outside the selectable area **/
 .kalendae .k-days span.k-selected {
-	border-color:#1072A5;
-	color:#1072A5;
+	border-color: #DCDCDC;
+	color: #5DA423;
 }
 
 /** Selected day, when inside the selectable area **/
 .kalendae .k-days span.k-selected.k-active {
-	background:#7EA0E2;
+	background: #5DA423;
 	color:white;
 }
 
 /** Days between the start and end points on a range, outside of the selectable area **/
 .kalendae .k-days span.k-range {
-	background:none;
-	border-color:#6DD4FE;
+	background: none;
+	border-color: #DCDCDC;
 }
 
 /** Days between the start and end points on a range, inside of the selectable area **/
 .kalendae .k-days span.k-range.k-in-month {
-	background:#C4D4F1;
-	border-color:#19AEFE;
-	color:#333;
+	background: #5DA423;
+	border-color: #DCDCDC;
+	color: #FFFFFF;
 }
 
 /** Selectable day, hovered **/
@@ -232,7 +220,7 @@
 .kalendae.ie8 .k-btn-next-year {background-position:center right;}
 
 .kalendae.ie8 .k-btn-previous-month:hover,
-.kalendae.ie8 .k-btn-next-month:hover {background-color:#7EA0E2;}
+.kalendae.ie8 .k-btn-next-month:hover {background-color: #2795B6;}
 
 .kalendae.ie8 .k-btn-previous-year,
 .kalendae.ie8 .k-btn-next-year {background-color:#333;}
