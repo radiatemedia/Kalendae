@@ -132,7 +132,7 @@ The following settings alter the internal behavior of Kalendae and should only b
     - Default is `2`
     
 - `titleFormat`: Format string used in the calendar title.
-    - Default is `"MMMM, YYYY"`
+    - Default is `"MMMM YYYY"`
 
 - `dayNumberFormat`: Format string for individual day numbers.
 	- Default is `"D"`
